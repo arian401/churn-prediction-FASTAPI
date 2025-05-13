@@ -12,16 +12,16 @@ In this example, customer churn prediction is based on data extracted from a Pos
 
 ## ⚙️ Features
 
-- ✅ Connect to a live PostgreSQL database
-- ✅ Load and preprocess customer records
-- ✅ Train a classification model (Random Forest)
-- ✅ Export model and scaler as `.pkl` files
-- ✅ Serve predictions through a FastAPI POST endpoint
-- ✅ Supports JSON input for integration into dashboards or web backends
+-  Connect to a live PostgreSQL database
+-  Load and preprocess customer records
+-  Train a classification model (Random Forest)
+-  Export model and scaler as `.pkl` files
+-  Serve predictions through a FastAPI POST endpoint
+-  Supports JSON input for integration into dashboards or web backends
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 .
@@ -75,7 +75,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 🌐 Deployment Options
+##  Deployment Options
 
 You can host the app and model on:
 
@@ -85,7 +85,7 @@ You can host the app and model on:
 
 ---
 
-## 🔁 Automation Pipeline
+##  Automation Pipeline
 
 To apply the models continuously:
 
